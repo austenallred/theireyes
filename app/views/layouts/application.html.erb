@@ -7,12 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 <div class="container-fluid">
   <div class="navbar-header">
     <div class="navbar-header">
       <a class="navbar-brand" href="/">
-        <%= image_tag("brand.svg", :alt => "Brand") %> 
+        <%= image_tag("brand.svg", :alt => "Brand") %>
       </a>
     </div>
     <ul class="nav navbar-nav navbar-right">
@@ -31,9 +31,21 @@
 </div>
 
 </nav>
-<div class="container">
-<%= yield %>
-</div>
+<main role="main">
+  <%= yield %>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  (function($) {
+    var everyoneList = $('.js-everyone'),
+        count = $('.js-everyone').children().length,
+        childElement = everyoneList.find('li:first'),
+        fudge = 40, // there is a 30-ish pixes padding to the left of the body container...this accounts for that plus a little breathing room
+        width = count * childElement.outerWidth(true);
 
+    $('body').css('width', width + fudge);
+
+  })($.noConflict());
+</script>
 </body>
 </html>
