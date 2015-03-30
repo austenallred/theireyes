@@ -6,7 +6,7 @@
 
 <h3>Why?</h3>
 
-<p>I've always been fascinated by discrepancies of information. The diffrent classes of information we find ourselves plugged into, and how that affects our thoughts, feelings, and behaviors.</p>
+<p>I've always been fascinated by discrepancies of information, the different classes of information we find ourselves plugged into, and how that affects our thoughts, feelings, and behaviors.</p>
 
 <p>When I lived in Ukraine and spoke with the older generation there, I was shocked to learn that many of them revered Stalin and Lenin as those born and raised in the United States would revere George Washington and Abraham Lincoln. This was a major shock to my system to someone for whom Stalin and Lenin were mostly grouped with Hitler and Mussolini in the hostiry books() and one of the reasons I went on to start <a href="https://grasswire.com">Grasswire</a>).</p>
 
