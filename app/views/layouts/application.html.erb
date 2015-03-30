@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Theirtwitter</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+  <div class="navbar-header">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <%= image_tag("brand.svg", :alt => "Brand") %> 
+      </a>
+    </div>
+</div>
+
+</nav>
+<div class="container">
+<%= yield %>
+</div>
+
+</body>
+</html>
