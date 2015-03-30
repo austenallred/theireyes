@@ -1,9 +1,9 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.body {
-  width: 999999px;
-  white-space:nowrap;
+body {
+  height: 100%;
+  padding-top: 70px;
 }
 
 .navbar-default {
@@ -15,16 +15,21 @@
   margin:0;
 }
 
-.onecol {
-  float:left;
-  min-width:50%;
-}
-
 button a {
   color: #fff;
   text-align:center;
 }
 
-li {
-  list-style: none;
+.everyone {
+  list-style-type: none;
+  width: auto;
+
+  li {
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
 }
