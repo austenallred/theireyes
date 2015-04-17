@@ -1,5 +1,4 @@
 <h3>View the Twitter feeds of famous startup investors and entrepreneurs</h3>
-<br>
 
 <a href="http://theireyes.austenallred.com">DEMO</a>
 
