@@ -1,8 +1,7 @@
 <h3>View the Twitter feeds of famous startup investors and entrepreneurs</h3>
 <br>
-<div class="text-center">
-  <%=link_to "Check it out", pages_viewlist_path, class: "btn btn-primary btn-lg"%>
-</div>
+
+<a href="http://theireyes.austenallred.com">DEMO</a>
 
 <h3>Why?</h3>
 
